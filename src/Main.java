@@ -5,7 +5,7 @@ and department, ensuring that records with the same salary and department are tr
 as duplicates*/
 import java.util.*;
 public class Main {
-    //mETHOD TO REMOVE THE RECORD WITH SAME SALARY AND DEPARTMENT
+    //METHOD TO REMOVE THE RECORD WITH SAME SALARY AND DEPARTMENT
     private static List<Employee> removeDuplicateSalariesAndDept(List<Employee> employees) {
         //To store the unique salaty and dept
         Map<String, Boolean> uniqueKeyMap = new HashMap<>();
